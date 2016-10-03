@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Converting temperatures between celsius, fahrenheit and kelvin scales",
     "repository": "https://github.com/hendore/elm-temperature.git",
     "license": "BSD3",
