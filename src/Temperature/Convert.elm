@@ -24,7 +24,7 @@ scales.
 
 {-| Converts temperature from fahrenheit to celsius.
 
-fahrenheitToCelsius 32 == 0
+    fahrenheitToCelsius 32 == 0
 -}
 fahrenheitToCelsius : Float -> Float
 fahrenheitToCelsius fahrenheit =
@@ -33,7 +33,7 @@ fahrenheitToCelsius fahrenheit =
 
 {-| Converts temperature from kelvin to celsius scale.
 
-kelvinToCelsius 273.15 == 0
+    kelvinToCelsius 273.15 == 0
 -}
 kelvinToCelsius : Float -> Float
 kelvinToCelsius kelvin =
@@ -42,7 +42,7 @@ kelvinToCelsius kelvin =
 
 {-| Converts temperature from celsius to fahrenheit.
 
-fahrenheitToCelsius 20 == 68
+    fahrenheitToCelsius 20 == 68
 -}
 celsiusToFahrenheit : Float -> Float
 celsiusToFahrenheit celsius =
@@ -51,7 +51,7 @@ celsiusToFahrenheit celsius =
 
 {-| Converts temperature from celsius to kelvin.
 
-celsiusToKelvin 0 == 273.15
+    celsiusToKelvin 0 == 273.15
 -}
 celsiusToKelvin : Float -> Float
 celsiusToKelvin celsius =
@@ -60,7 +60,7 @@ celsiusToKelvin celsius =
 
 {-| Converts temperature from fahrenheit to kelvin.
 
-fahrenheitToKelvin 23 == 268.15
+    fahrenheitToKelvin 23 == 268.15
 -}
 fahrenheitToKelvin : Float -> Float
 fahrenheitToKelvin fahrenheit =
@@ -69,7 +69,7 @@ fahrenheitToKelvin fahrenheit =
 
 {-| Converts temperature from kelvin to fahrenheit.
 
-kelvinToFahrenheit 299.817 == 80
+    kelvinToFahrenheit 299.817 == 80
 -}
 kelvinToFahrenheit : Float -> Float
 kelvinToFahrenheit kelvin =
