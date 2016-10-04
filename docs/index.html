@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Elm Temperature Demo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body {
+      padding: 3.125rem;
+
+      background-color: #13b3aa;
+      color: #fff;
+      font-size: 1.4rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    a,
+    a:hover
+    a:focus
+    a:active {
+      color: #fdf191 !important;
+    }
+
+    .form-control {
+      background-color: #fff;
+      border: none;
+      padding: 2.5rem;
+      border-radius: 0;
+    }
+
+    .form-control:focus {
+      box-shadow: 0 2px 12px rgba(0,0,0,.35);
+    }
+
+    .form-group label {
+      position: relative;
+      top: 4rem; left: 2.5rem;
+      color: #13b3aa;
+    }
+
+    .form-group input {
+      padding-left: 15rem;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app-root"></div>
+    <script type="text/javascript" src="/elm-temperature-demo.js"></script>
+    <script type="text/javascript">
+    Elm.Main.embed(document.getElementById('app-root'));
+    </script>
+  </body>
+</html>
