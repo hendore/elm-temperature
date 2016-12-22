@@ -64,7 +64,8 @@ celsiusToKelvin celsius =
 -}
 fahrenheitToKelvin : Float -> Float
 fahrenheitToKelvin fahrenheit =
-    fahrenheitToCelsius fahrenheit |> celsiusToKelvin
+    fahrenheitToCelsius fahrenheit
+        |> celsiusToKelvin
 
 
 {-| Converts temperature from kelvin to fahrenheit.
@@ -73,4 +74,5 @@ fahrenheitToKelvin fahrenheit =
 -}
 kelvinToFahrenheit : Float -> Float
 kelvinToFahrenheit kelvin =
-    kelvinToCelsius kelvin |> celsiusToFahrenheit
+    kelvinToCelsius kelvin
+        |> celsiusToFahrenheit
